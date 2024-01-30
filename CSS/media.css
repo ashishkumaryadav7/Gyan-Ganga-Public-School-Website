@@ -170,7 +170,7 @@
     /*--------------------------------------------------------------------*/
 
     .footer-container{
-        height: 1265px;
+        height: 1310px;
         position: relative;
     }
     /*sub-footer-1*/
@@ -304,6 +304,12 @@
         top: 920px;
         right: auto;
         left: auto;
+    }
+    .text1 , .text2{
+        margin-bottom: 8px;
+    }
+    .email-box{
+        margin-bottom: 8px;
     }
     .btn{
         margin-top: 10px;
