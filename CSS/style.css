@@ -701,6 +701,8 @@ header{
 }
 .msg-box{
     font-size: 1rem;
+    width: 213px;
+    height: 115px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     border: 1px dotted;
     background: none;
@@ -717,6 +719,8 @@ header{
     margin-top: 10px;
     display: flex;
     justify-content: center;
+    outline: none;
+    border: none;
 }
 .btn-box{
     font-size: 1rem;
@@ -728,6 +732,7 @@ header{
     transition: all .3s;
     border: none;
 }
+
 .btn-box:hover{
     width: 200px;
     border-radius: 10px 0 10px 0;
