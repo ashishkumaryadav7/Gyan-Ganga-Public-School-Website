@@ -1,0 +1,905 @@
+@media only screen and (max-width: 576px){
+    .contact-header{
+        display: none;
+    }
+
+    /*--------------------------------------------------------------------*/
+    /*                     MAIN HEADER START                              */
+    /*--------------------------------------------------------------------*/
+    .header{
+        background:linear-gradient(to right, white, rgb(241, 227, 227));
+    }
+    .icon-menu{
+        display: block;
+    }
+    .items{
+        position:absolute;
+        background:linear-gradient(to right, white, rgb(241, 227, 227));
+        display: inline-block;
+        left: 0;
+        top: 106px;
+        width: 100vw;
+        height: 0vh;
+        justify-content: space-between;
+        overflow: hidden;
+        transition: all 0.4s;
+        z-index: 1;
+    }
+    .item{
+        text-align: center;
+        padding: 10px;
+        margin: 5px;
+        width: 100%;
+    }
+    .close-icon{
+        display: none;
+    }
+    #check:checked~.icon-menu #menu{
+        display: none;
+    }
+    #check:checked~.icon-menu #close{
+        display: block;
+    }
+    #check:checked~.items{
+        height: 50vh;
+        display: block;
+    }
+    /*--------------------------------------------------------------------*/
+    /*                     MAIN HEADER END                                */
+    /*--------------------------------------------------------------------*/
+
+
+    /*--------------------------------------------------------------------*/
+    /*                     NEWS & EVENTS SECTION START                    */
+    /*--------------------------------------------------------------------*/
+
+    .event-container{
+        height: 1000px;
+        background-color: #cdd8e4;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .news-block{
+        height: 420px;
+        width: 350px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .download-zone{
+        width: 350px;
+    }
+    
+    /*--------------------------------------------------------------------*/
+    /*                     NEWS & EVENTS SECTION END                      */
+    /*--------------------------------------------------------------------*/
+
+
+    /*--------------------------------------------------------------------*/
+    /*                     FOUNDER SECTION START                          */
+    /*--------------------------------------------------------------------*/
+
+    .founder-container{
+        height: 700px;
+    }
+    
+    .founder h1{
+        font-size: 2rem;
+    }
+    .founder-name h3{
+        font-size: 0.97rem;
+    }
+    .founder-block{
+        top: 200px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:center;
+    }
+    .founder-para{
+        width: 330px;
+        margin-right: 0;
+        padding-top: 1.7rem;
+        font-size: 1rem;
+    }
+    .founder-para p{
+        font-size: 1rem;
+    }
+    .founder-img{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .founder-img img{
+        width: 300px;
+    }
+
+    /*--------------------------------------------------------------------*/
+    /*                     FOUNDER SECTION END                            */
+    /*--------------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------------*/
+    /*                     MANAGEMENT SECTION START                       */
+    /*--------------------------------------------------------------------*/
+
+    .management-container{
+        height: 934px;
+    }
+    .management-heading{
+        padding-top: 25px;
+    }
+    .management-heading h1{
+        font-size: 2rem;
+    }
+    .management-heading p{
+        font-size: 0.8rem;
+    }
+    .management-person{
+        height: 820px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 0;
+        position: relative;
+    }
+    .person1-degination h1,.person2-degination h1,.person3-degination h1{
+        font-size: 20px;
+    }
+    .person{
+        margin-top: 35px;
+        margin-bottom: 18px !important;
+    }
+    
+    .person-name h1 a{
+        font-size: 20px;
+    }
+    .person:hover img{
+        transform: translateY(-60px);
+    }
+    .person:hover .person-name {
+        transform: translateY(-45px);
+    }
+
+    /*--------------------------------------------------------------------*/
+    /*                     MANAGEMENT SECTION END                       */
+    /*--------------------------------------------------------------------*/
+
+
+    /*--------------------------------------------------------------------*/
+    /*                     FOOTER SECTION START                           */
+    /*--------------------------------------------------------------------*/
+
+    .footer-container{
+        height: 1265px;
+        position: relative;
+    }
+    /*sub-footer-1*/
+    .sub-footer1{
+        position: absolute;
+        left: auto;
+        right: auto;
+        width: 335px;
+        height: 430px;
+        overflow: hidden;
+    }
+    .footer-img{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: 300px;
+    }
+    .footer-img-logo1{
+        position: relative;
+        height: 70px;
+        width: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-img-logo1 img{
+        position: absolute;
+        bottom: 0;
+    }
+    .footer-img-logo2{
+        position: relative;
+        height: 25px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-img-logo2 img{
+        position: absolute;
+    }
+    .footer-content1{
+        width: 300px;
+        height: 215px;
+        margin-bottom: 10px;
+    }
+   
+    /*sub-footer-2*/
+    .sub-footer2{
+        position: absolute;
+        top: 595px;
+        left: auto;
+        right: auto;
+        padding-top: 0;
+        width: 265px;
+        height: 290px;
+    }
+    .sub-footer2 h4{
+        margin-bottom: 17px;
+    }
+    .f2-phone{
+        margin-bottom: 17px;
+        width: 245px;
+    }
+    .f2-mail{
+        margin-bottom: 17px;
+        width: 258px;
+        height:30px;
+    }
+    
+    .f2-link{
+        margin-bottom: 17px;
+        width: 245px;
+    }
+    .f2-location{
+        width: 258px;
+    }
+    
+    /*sub-footer-3*/
+    .sub-footer3{
+        padding-top: 0px;
+        height: fit-content;
+        width: fit-content;
+        position: absolute;
+        top: 435px;
+        right: auto;
+        left: auto;  
+    }
+    .sub-footer3 h4{
+        font-weight: 800;
+        text-align: center;
+        color: #c73e73;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        margin-bottom: 10px;
+    }
+    .f3-links{
+        position: relative;
+        width: 300px;
+        height: 110px;
+    }
+    .f3-links a{
+        position: absolute;
+    }
+    .f3-links .f-link1{
+        top: 10px;
+        left: 25px;
+    }
+    .f3-links .f-link2{
+        top: 10px;
+        right: 25px;
+    }
+    .f3-links .f-link3{
+        top: 40px;
+        left: 25px;
+    }
+    .f3-links .f-link4{
+        top: 40px;
+        right: 45px;
+    }
+    .f3-links .f-link5{
+        top: 70px;
+        left: 25px;
+    }
+    .f3-links .f-link6{
+        top: 70px;
+        right: 31px;
+    }
+
+    /*sub footer 4*/
+    .sub-footer4{
+        height: 285px;
+        width: 300px;
+        position: absolute;
+        top: 920px;
+        right: auto;
+        left: auto;
+    }
+    .btn{
+        margin-top: 10px;
+    }
+    /*copyright-footer*/
+    .copyright-footer{
+        height: 60px;
+        color: white;
+        font-size: 0.75rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        }
+  
+
+    /*--------------------------------------------------------------------*/
+    /*                     FOOTER SECTION END                             */
+    /*--------------------------------------------------------------------*/
+}
+
+
+@media only screen and (min-width: 577px) and (max-width: 768px){
+
+    .contact-header{
+        display: none;
+    }
+
+    /*--------------------------------------------------------------------*/
+    /*                     MAIN HEADER START                              */
+    /*--------------------------------------------------------------------*/
+    .header{
+        background:linear-gradient(to right, white, rgb(241, 227, 227));
+    }
+    .icon-menu{
+        display: block;
+    }
+    .items{
+        position:absolute;
+        background:linear-gradient(to right, white, rgb(241, 227, 227));
+        display: inline-block;
+        left: 0;
+        top: 106px;
+        width: 100vw;
+        height: 0vh;
+        justify-content: space-between;
+        overflow: hidden;
+        transition: all 0.4s;
+        z-index: 1;
+    }
+    .item{
+        text-align: center;
+        padding: 10px;
+        margin: 5px;
+        width: 100%;
+    }
+    .close-icon{
+        display: none;
+    }
+    #check:checked~.icon-menu #menu{
+        display: none;
+    }
+    #check:checked~.icon-menu #close{
+        display: block;
+    }
+    #check:checked~.items{
+        height: 50vh;
+        display: block;
+    }
+    /*--------------------------------------------------------------------*/
+    /*                     MAIN HEADER END                                */
+    /*--------------------------------------------------------------------*/
+
+
+
+    /*--------------------------------------------------------------------*/
+    /*                     FOUNDER SECTION START                          */
+    /*--------------------------------------------------------------------*/
+
+    .founder-container{
+        height: 725px;
+    }
+    
+    .founder h1{
+        font-size: 2.5rem;
+    }
+    .founder-name h3{
+        font-size: 1.24rem;
+    }
+    .founder-block{
+        top: 200px;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items:center;
+    }
+    .founder-para{
+        width: 470px;
+        margin-right: 0;
+        padding-top: 1.7rem;
+        font-size: 1rem;
+    }
+    .founder-para p{
+        font-size: 1rem;
+    }
+    .founder-img{
+        margin-left: 0;
+        margin-top: 0;
+    }
+    .founder-img img{
+        width: 420px;
+    }
+
+    /*--------------------------------------------------------------------*/
+    /*                     FOUNDER SECTION END                            */
+    /*--------------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------------*/
+    /*                     MANAGEMENT SECTION START                       */
+    /*--------------------------------------------------------------------*/
+
+    .management-container{
+        height: 1330px;
+    }
+    .management-heading{
+        padding-top: 25px;
+    }
+    .management-heading h1{
+        font-size: 2.5rem;
+    }
+    .management-heading p{
+        font-size: 1rem;
+    }
+    .management-person{
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-top: 1.5rem;
+        position: relative;
+        margin-top: 0;
+    }
+    .person1-degination h1,.person2-degination h1,.person3-degination h1{
+        font-size: 30px;
+    }
+    .person{
+        margin-top: 45px;
+        position: relative;
+        height: 315px;
+        width: 450px;
+        padding: 25px;
+        border-radius: 10px;
+        transition: all 0.3s;
+        transition: background-color 0.3s ease-in-out;
+        margin-bottom: 30px !important;
+    }
+    .person img{
+        width: 400px;
+        height: 266px;
+    }
+    
+    .person-name h1 a{
+        font-size: 25px;
+    }
+    .person:hover img{
+        transform: translateY(-75px);
+    }
+    .person:hover .person-name {
+        opacity: 1;
+        transform: translateY(-55px);
+    }
+
+    /*--------------------------------------------------------------------*/
+    /*                     MANAGEMENT SECTION END                       */
+    /*--------------------------------------------------------------------*/
+
+
+
+    /*--------------------------------------------------------------------*/
+    /*                     NEWS & EVENTS SECTION START                    */
+    /*--------------------------------------------------------------------*/
+
+    .event-container{
+        height: 1000px;
+        background-color: #cdd8e4;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .news-block{
+        height: 420px;
+        width: 350px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .download-zone{
+        width: 350px;
+    }
+    
+    /*--------------------------------------------------------------------*/
+    /*                     NEWS & EVENTS SECTION END                      */
+    /*--------------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------------*/
+    /*                     FOOTER SECTION START                           */
+    /*--------------------------------------------------------------------*/
+
+    .footer-container{
+        height: 1110px;
+        position: relative;
+    }
+    /*sub-footer-1*/
+    .sub-footer1{
+        position: absolute;
+        left: auto;
+        right: auto;
+        height: fit-content;
+        width: fit-content;
+    }
+    .footer-img{
+        
+        height: 115px;
+        width: 350px;
+    }
+    .footer-img-logo1{
+        position: relative;
+        height: 70px;
+        width: 85px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-img-logo1 img{
+        top: 0px;
+    }
+    .footer-img-logo2{
+        height: 25px;
+        width: 230px;
+    }
+    .footer-img-logo2 img{
+        top: 12px;
+    }
+    .footer-content1{
+        width: 425px;
+        height: 155px;
+    }
+   
+    /*sub-footer-2*/
+    .sub-footer2{
+        position: absolute;
+        top: 392px;
+        left: 80px;
+        padding-top: 0;
+        height: fit-content;
+    }
+    .sub-footer2 h4{
+        margin-bottom: 17px;
+    }
+    .f2-phone{
+        margin-bottom: 17px;
+    }
+    .f2-mail{
+        margin-bottom: 17px;
+    }
+    
+    .f2-link{
+        margin-bottom: 17px;
+    }
+    
+    /*sub-footer-3*/
+    .sub-footer3{
+        padding-top: 0px;
+        height: fit-content;
+        width: 180px;
+        position: absolute;
+        top: 392px;
+        right: 80px;
+        
+    }
+    .sub-footer3 h4{
+        font-weight: 800;
+        text-align: center;
+        color: #c73e73;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        margin-bottom: 10px;
+    }
+    
+    .f3-links a{
+        margin-bottom: 16px;
+    }
+
+    /*sub footer 4*/
+    .sub-footer4{
+        height: 278px;
+        width: 415px;
+        position: absolute;
+        top: 725px;
+        right: auto;
+        left: auto;
+    }
+    .f4-links{
+        margin-top: 5px;
+    }
+    
+    /*copyright-footer*/
+    .copyright-footer{
+    height: 60px;
+    color: white;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+    /*--------------------------------------------------------------------*/
+    /*                     FOOTER SECTION END                             */
+    /*--------------------------------------------------------------------*/
+}
+
+
+@media only screen and (min-width: 769px) and (max-width: 992px){
+    
+    
+    .contact-header{
+        display: none;
+    }
+
+    /*--------------------------------------------------------------------*/
+    /*                     MAIN HEADER START                              */
+    /*--------------------------------------------------------------------*/
+    .header{
+        background:linear-gradient(to right, white, rgb(241, 227, 227));
+    }
+    .icon-menu{
+        display: block;
+    }
+    .items{
+        position:absolute;
+        background:linear-gradient(to right, white, rgb(241, 227, 227));
+        display: inline-block;
+        left: 0;
+        top: 106px;
+        width: 100vw;
+        height: 0vh;
+        justify-content: space-between;
+        overflow: hidden;
+        transition: all 0.4s;
+        z-index: 1;
+    }
+    .item{
+        text-align: center;
+        padding: 10px;
+        margin: 5px;
+        width: 100%;
+    }
+    .close-icon{
+        display: none;
+    }
+    #check:checked~.icon-menu #menu{
+        display: none;
+    }
+    #check:checked~.icon-menu #close{
+        display: block;
+    }
+    #check:checked~.items{
+        height: 50vh;
+        display: block;
+    }
+    /*--------------------------------------------------------------------*/
+    /*                     MAIN HEADER END                                */
+    /*--------------------------------------------------------------------*/
+
+    
+
+    /*--------------------------------------------------------------------*/
+    /*                     FOUNDER SECTION START                          */
+    /*--------------------------------------------------------------------*/
+
+    .founder-container{
+        height: 480px;
+    }
+    .founder{
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+    .founder h1{
+        font-size: 3rem;
+    }
+    .founder-name h3{
+        font-size: 1.5rem;
+    }
+    .founder-block{
+        top: 200px;
+    }
+    .founder-para{
+        width: 360px;
+        margin-right: 1vw;
+        padding-top: 1rem;
+        font-size: 1rem;
+    }
+    .founder-para p{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 1rem;
+    }
+    .founder-para button{
+        border: none;
+        background-color: transparent;
+    }
+    .founder-img{
+        padding-top: 1rem;
+        margin-left: 1vw;
+        margin-top: 0;
+    }
+    .founder-img img{
+        width: 352px;
+    }
+
+    /*--------------------------------------------------------------------*/
+    /*                     FOUNDER SECTION END                            */
+    /*--------------------------------------------------------------------*/
+
+    /*--------------------------------------------------------------------*/
+    /*                     MANAGEMENT SECTION START                       */
+    /*--------------------------------------------------------------------*/
+
+    .management-container{
+        height: 1595px;
+    }
+    .management-heading{
+        padding-top: 25px;
+    }
+    .management-heading h1{
+        font-size: 3rem;
+    }
+    .management-heading p{
+        text-align: center;
+        font-size: 1.5rem;
+        color: #F0778C;
+    }
+    .management-person{
+        height: 1448px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        margin-top: 0;
+    }
+    .managemant-person1, .managemant-person2, .managemant-person3{
+        position: relative;
+        height: fit-content;
+    }
+
+    .person1-degination h1,.person2-degination h1,.person3-degination h1{
+        font-size: 35px;
+    }
+    .person{
+        margin-top: 50px;
+        height: 386px;
+        width: 550px;
+        padding: 25px;
+        margin-bottom: 40px !important;
+    }
+    .person img{
+        width: 500px;
+        height: 333px;
+    }
+
+    .person-name h1 a{
+        font-size: 40px;
+    }
+
+    .person:hover img{
+        transform: translateY(-80px);
+    }
+    .person:hover .person-name {
+        transform: translateY(-60px);
+    }
+
+    /*--------------------------------------------------------------------*/
+    /*                     MANAGEMENT SECTION END                       */
+    /*--------------------------------------------------------------------*/
+
+
+    /*--------------------------------------------------------------------*/
+    /*                     NEWS & EVENTS SECTION START                    */
+    /*--------------------------------------------------------------------*/
+
+    .event-container{
+        height: 525px;
+        padding-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .news-block{
+        height: 420px;
+        width: 350px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .download-zone{
+        width: 350px;
+    }
+    
+    /*--------------------------------------------------------------------*/
+    /*                     NEWS & EVENTS SECTION END                      */
+    /*--------------------------------------------------------------------*/
+
+
+    /*--------------------------------------------------------------------*/
+    /*                     FOOTER SECTION START                           */
+    /*--------------------------------------------------------------------*/
+
+    .footer-container{
+        height: 790px;
+        position: relative;
+    }
+    /*sub-footer-1*/
+    .sub-footer1{
+        position: absolute;
+        left: 85px;
+        height: fit-content;
+    }
+   
+    /*sub-footer-2*/
+    .sub-footer2{
+        position: absolute;
+        top: 410px;
+        left: 122px;
+        padding-top: 0;
+        height: fit-content;
+    }
+    .sub-footer2 h4{
+        margin-bottom: 17px;
+    }
+    .f2-phone{
+        margin-bottom: 17px;
+    }
+    .f2-mail{
+        margin-bottom: 17px;
+    }
+    
+    .f2-link{
+        margin-bottom: 17px;
+    }
+    
+    /*sub-footer-3*/
+    .sub-footer3{
+        padding-top: 0px;
+        height: fit-content;
+        width: 180px;
+        position: absolute;
+        right: 104px;
+        padding-top:50px ;
+        
+    }
+    .sub-footer3 h4{
+        font-weight: 800;
+        text-align: center;
+        color: #c73e73;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        margin-bottom: 10px;
+    }
+    
+    .f3-links a{
+        margin-bottom: 17px;
+    }
+
+    /*sub footer 4*/
+    .sub-footer4{
+        height: 290px;
+        width: 295px;
+        position: absolute;
+        top: 360px;
+        right: 55px;
+    }
+    .icons-links{
+
+    }
+    .f2-icon-links{
+        position: absolute;
+        /* width: 300px; */
+        width: 50vw;
+        height: 60px;
+        top: 280px;
+        left: 200px;
+        left: 10vw;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .f2-icon-links i{
+        font-size: 3rem;
+        /* margin-left: 4vw; */
+    }
+    
+  
+
+    /*--------------------------------------------------------------------*/
+    /*                     FOOTER SECTION END                             */
+    /*--------------------------------------------------------------------*/
+}
